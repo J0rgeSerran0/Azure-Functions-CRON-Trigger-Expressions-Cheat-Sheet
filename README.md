@@ -32,9 +32,16 @@ The CRON format for Azure Functions is as:
 |`0 * * * * *`|Every minute|
 |`0 */5 * * * *`|Every 5 minutes|
 |`0 0 * * * *`|Every hour|
+|`0 0 0 * * *`|Every day|
 |`0 0 */2 * * *`|Every 2 hours|
 |`0 0 7-18 * * *`|Every hour from 7 AM to 6 PM|
 |`0 0 7,18 * * *`|Every hour at 7 AM and 6 PM|
 |`0 0 6 * * *`|Every day at 6 AM|
-|`0 0 0 * * *`|Every day|
+|`0 30 7 * * *`|Every day at 7:30 AM|
 |`0 0 2 * * 1,4`|At 2 AM only the Monday and Thursday|
+|`0 30 7 * * 1-5`|At 7:30 AM from Monday to Friday|
+
+# Resources
+- [Wikipedia - CRON information](https://en.wikipedia.org/wiki/Cron)
+- [CRON Expresion Descriptor (*describes CRON expressions as human readable text*)](https://bradymholt.github.io/cron-expression-descriptor/)
+- 
