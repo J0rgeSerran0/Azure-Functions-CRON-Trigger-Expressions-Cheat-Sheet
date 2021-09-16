@@ -42,6 +42,5 @@ The CRON format for Azure Functions is as:
 |`0 30 7 * * 1-5`|At 7:30 AM from Monday to Friday|
 
 # Resources
-- [Wikipedia - CRON information](https://en.wikipedia.org/wiki/Cron)
 - [CRON Expresion Descriptor (*describes CRON expressions as human readable text*)](https://bradymholt.github.io/cron-expression-descriptor/)
-- 
+- [Wikipedia - CRON information](https://en.wikipedia.org/wiki/Cron)
